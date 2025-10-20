@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Baker+2025d: Exploring Over 700 Massive Quiescent Galaxies - Data Release"
+authors:
+  - family-names: "Baker"
+    given-names: "William"
+    affiliation: "Department of Astronomy"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - name: "Baker+2025d Collaboration"
+version: "1.0.0"
+date-released: "2025-10-20"
+url: "https://github.com/Astro-William-Baker/Baker-2025d"
+repository-code: "https://github.com/Astro-William-Baker/Baker-2025d"
+keywords:
+  - astronomy
+  - galaxies
+  - quiescent galaxies
+  - galaxy evolution
+  - stellar populations
+  - galaxy structure
+license: CC-BY-4.0
+abstract: >
+  This repository contains the data release from Baker+2025d, a comprehensive
+  study of over 700 massive quiescent galaxies. The dataset includes multi-wavelength
+  photometry, structural parameters, stellar population properties, and environmental
+  measurements spanning redshifts z~0.5 to z~2.5. The data products enable studies
+  of galaxy evolution, quenching mechanisms, and the assembly of massive galaxies
+  across cosmic time.
+references:
+  - type: article
+    authors:
+      - family-names: "Baker"
+        given-names: "William"
+    title: "Exploring Over 700 Massive Quiescent Galaxies"
+    year: 2025
+    journal: "Journal Name"
+    # doi: "10.XXXX/XXXXX"  # To be added upon publication

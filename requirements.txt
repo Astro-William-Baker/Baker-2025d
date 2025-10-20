@@ -1,0 +1,24 @@
+# Python requirements for working with Baker+2025d data
+
+# Core scientific computing
+numpy>=1.19.0
+scipy>=1.5.0
+
+# Astronomy-specific
+astropy>=4.0.0
+
+# Data manipulation and analysis
+pandas>=1.1.0
+
+# Plotting
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Optional: for interactive notebooks
+jupyter>=1.0.0
+ipython>=7.0.0
+
+# Optional: for advanced SED fitting
+# prospector
+# fsps
+# sedpy
