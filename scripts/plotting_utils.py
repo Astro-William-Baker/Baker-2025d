@@ -295,9 +295,10 @@ def plot_size_evolution(catalog, mass_range=(11.0, 11.5), z_bins=None,
     
     ax.set_xlabel('Redshift', fontsize=14)
     ax.set_ylabel(r'R$_e$ [kpc]', fontsize=14)
-    ax.set_title(f'Size Evolution ' +
-                f'({mass_range[0]:.1f} < log M$_*$/M$_\\odot$ < {mass_range[1]:.1f})',
-                fontsize=16)
+    title_str = (f'Size Evolution '
+                f'({mass_range[0]:.1f} < log M$_*$/M$_' + r'\odot' + 
+                f'$ < {mass_range[1]:.1f})')
+    ax.set_title(title_str, fontsize=16)
     ax.grid(True, alpha=0.3)
     ax.legend(fontsize=12)
     
